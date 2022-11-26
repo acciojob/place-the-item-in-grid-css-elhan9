@@ -1,2 +1,18 @@
-
 /* Your CSS Code here. */
+div{
+    display: grid;
+    justify-content: space-between;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2,200px);
+    grid-template-rows: repeat(2,200px);
+    
+    
+}
+
+.box{
+    border: 1px;
+    background-color: peachpuff;
+    border: 1px solid black;
+    
+    
+}
